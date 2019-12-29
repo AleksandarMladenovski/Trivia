@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="MIN_num_of_questions">10</string>
+    <string name="TV_number_of_questions">Number of Questions:</string>
+    <string name="ET_enter_number_of_questions">Enter number of Questions</string>
+    <string name="TV_select_category">Select Category:</string>
+    <string name="TV_select_difficulty">Select Difficulty:</string>
+    <string name="TV_select_type">Select Type:</string>
+    <string name="ET_error_msg">Please enter a number between 10 and 20</string>
+    <string name="KEY_CATEGORY">Category Key</string>
+    <string name="KEY_DIFFICULTY">Difficulty Key</string>
+    <string name="KEY_TYPE">Type Key</string>
+    <string name="KEY_AMOUNT">Amount Key</string>
+    <string-array name="values_category">
+        <item>Any Category</item>
+        <item>General Knowledge</item>
+        <item>Sports</item>
+        <item>Animals</item>
+        <item>History</item>
+        <item>Geography</item>
+        <item>Vehicles</item>
+    </string-array>
+    <string-array name="values_difficulty">
+        <item>Any Difficulty</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="values_type">
+        <item>Any Type</item>
+        <item>Multiple Choice</item>
+        <item>True / False</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

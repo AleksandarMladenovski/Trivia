@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context=".activity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_num_of_questions"
+        style="@android:style/Widget.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_number_of_questions"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_num_of_questions"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ET_enter_number_of_questions"
+        android:inputType="number"
+        android:text="@string/MIN_num_of_questions" />
+
+    <TextView
+        android:id="@+id/tv_select_category"
+        style="@android:style/Widget.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_select_category"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/values_category"></Spinner>
+
+    <TextView
+        android:id="@+id/tv_select_difficulty"
+        style="@android:style/Widget.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_select_difficulty"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_difficulty"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/values_difficulty"></Spinner>
+
+    <TextView
+        android:id="@+id/tv_select_type"
+        style="@android:style/Widget.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_select_type"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_type"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/values_type"></Spinner>
+
+    <Button
+        android:id="@+id/btn_get_trivia_questions"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="21sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+</LinearLayout>
